@@ -9,6 +9,53 @@ This repository contains the frontend implementation of a simple farm management
 - **Tailwind CSS:** To showcase proficiency in CSS and Tailwind, no UI frameworks like Ant Design or Material-UI were used. This decision was made to demonstrate my skills in using Tailwind and custom CSS.
 - **Deployment:** The frontend is deployed on Netlify, showcasing the application in a production-like environment.
 
+## Local Development
+
+Follow these instructions to set up the project for local development.
+
+### Prerequisites
+
+- Node.js
+- npm or yarn
+- Git (for cloning the repository)
+
+### Installation
+
+1. **Clone the Repository**
+
+   ```sh
+   git clone https://github.com/jalilbm/farm-task-app-fronted.git
+   cd farm-task-app-fronted
+   ```
+
+2. **Install Dependencies**
+
+   ```sh
+   npm install
+   ```
+
+   or
+
+   ```sh
+   yarn install
+   ```
+
+3. **Start the Development Server**
+
+   ```sh
+   npm start
+   ```
+
+   or
+
+   ```sh
+   yarn install
+   ```
+
+4. **Environment Variables**
+
+   `REACT_APP_BACKEND_BASE_URL` env var is set to the local Django backend url `http://127.0.0.1:8000`. If you don't wish to run the backend locally, change it to point to the public deployed url `https://farm-task-app-backend-39e877dfc20e.herokuapp.com/`
+
 ## Notes
 
 - The `.env` file is included in the repository intentionally as this is only a test project.
