@@ -54,7 +54,7 @@ Follow these instructions to set up the project for local development.
 
 4. **Environment Variables**
 
-   `REACT_APP_BACKEND_BASE_URL` env var is set to the local Django backend url `http://127.0.0.1:8000`. If you don't wish to run the backend locally, change it to point to the public deployed url `https://farm-task-app-backend-39e877dfc20e.herokuapp.com/`
+   `REACT_APP_BACKEND_BASE_URL` env var is set to the local Django backend url `http://127.0.0.1:8000`. If you don't wish to run the backend locally, change it to point to the public deployed url `https://farm-task-app-backend-39e877dfc20e.herokuapp.com`, but for reasons described in the README.md file of the backend project, we **HIGHLY RECOMMEND** running the tests in the local development (please refer to the backend readme file for more details)
 
 ## Notes
 
