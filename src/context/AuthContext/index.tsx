@@ -95,7 +95,7 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
 			updateToken();
 		}
 
-		const REFRESH_INTERVAL = 1000 * 60 * 4; // 4 minutes
+		const REFRESH_INTERVAL = 1000 * 60 * 50; // 50 minutes
 		let interval = setInterval(() => {
 			if (authTokens) {
 				updateToken();
