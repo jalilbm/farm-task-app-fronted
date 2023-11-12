@@ -61,3 +61,7 @@ Follow these instructions to set up the project for local development.
 - The `.env` file is included in the repository intentionally as this is only a test project.
 - Additional time was invested in enhancing the application with features not initially requested in the task, such as animal data updating (editing) and simple authentication, to provide a more comprehensive demonstration of my capabilities.
 - If required, I am prepared to add tests to the project to further demonstrate my proficiency in modern web application development practices.
+
+## Performance Note
+
+When running the application locally with PostgreSQL (that is hosted in Heroku), you might experience slightly slower response times compared to the production environment. This variance is typical due to the network latency in local setups. However, the publicly available interface on Netlify ensures a more responsive user experience. Keep this in mind while testing and developing locally.
