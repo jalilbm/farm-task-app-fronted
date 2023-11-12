@@ -1,46 +1,16 @@
-# Getting Started with Create React App
+# Farm Management Web Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repository contains the frontend implementation of a simple farm management web application. It's a single-page application (SPA) designed for managing farm animals.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Simple Authentication:** Implemented basic authentication using `SIMPLE-JWT` to demonstrate the security aspect of the application.
+- **Animal Data Management:** Apart from listing animals, features for adding, editing, and removing animals have been incorporated. Each animal has a unique “Name” property.
+- **Tailwind CSS:** To showcase proficiency in CSS and Tailwind, no UI frameworks like Ant Design or Material-UI were used. This decision was made to demonstrate my skills in using Tailwind and custom CSS.
+- **Deployment:** The frontend is deployed on Netlify, showcasing the application in a production-like environment.
 
-### `npm start`
+## Notes
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- The `.env` file is included in the repository intentionally as this is only a test project.
+- Additional time was invested in enhancing the application with features not initially requested in the task, such as animal data updating (editing) and simple authentication, to provide a more comprehensive demonstration of my capabilities.
+- If required, I am prepared to add tests to the project to further demonstrate my proficiency in modern web application development practices.
