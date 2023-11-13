@@ -6,7 +6,7 @@ import { useContext } from "react";
 const Login: React.FC = () => {
 	let { loginUser } = useContext(AuthContext)!;
 	return (
-		<section className="relative bg-gray-50 dark:bg-gray-900">
+		<section className="relative bg-gray-50 dark:bg-gray-900 h-screen flex items-center">
 			<div
 				className="absolute inset-0 bg-no-repeat bg-cover blur-sm"
 				style={{ backgroundImage: `url(${background})` }}
