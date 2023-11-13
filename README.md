@@ -7,7 +7,7 @@ This repository contains the frontend implementation of a simple farm management
 - **Simple Authentication:** Implemented basic authentication using `SIMPLE-JWT` to demonstrate the security aspect of the application.
 - **Animal Data Management:** Apart from listing animals, features for adding, editing, and removing animals have been incorporated. Each animal has a unique “Name” property.
 - **Tailwind CSS:** To showcase proficiency in CSS and Tailwind, no UI frameworks like Ant Design or Material-UI were used. This decision was made to demonstrate my skills in using Tailwind and custom CSS.
-- **Adaptive UI Theme::** The application automatically switches between light and dark modes based on the user's browser preferences, enhancing user experience and accessibility.
+- **Adaptive UI Theme:** The application automatically switches between light and dark modes based on the user's browser preferences, enhancing user experience and accessibility.
 - **Deployment:** The frontend is deployed on Netlify, showcasing the application in a production-like environment.
 
 ## Local Development
